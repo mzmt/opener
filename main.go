@@ -29,3 +29,8 @@ func main() {
 		panic(err)
 	}
 }
+
+func alias(name string) {
+	// alias translate
+	// e.g.    l -> list
+}
