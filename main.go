@@ -2,6 +2,8 @@ package main
 
 import (
 	"flag"
+	"fmt"
+	"os"
 	"os/exec"
 )
 
@@ -18,6 +20,13 @@ func main() {
 	app["facebook"] = "https://www.facebook.com/"
 	app["amazon"] = "https://www.amazon.co.jp/"
 	app["netflix"] = "https://www.netflix.com/jp/"
+
+	if name == "list" {
+		for key := range app {
+			fmt.Println(key)
+		}
+		os.Exit(0)
+	}
 
 	if app[name] == "" {
 		panic("App not found.")
