@@ -15,7 +15,7 @@ func main() {
 	app["twitter"] = "https://twitter.com/home"
 	app["gmail"] = "https://mail.google.com/"
 	app["trans"] = "https://translate.google.co.jp/"
-	app["github"] = "http://github.com/"
+	app["github"] = "https://github.com/"
 	app["reddit"] = "https://www.reddit.com/"
 	app["facebook"] = "https://www.facebook.com/"
 	app["amazon"] = "https://www.amazon.co.jp/"
